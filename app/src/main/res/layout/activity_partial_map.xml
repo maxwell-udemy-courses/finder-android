@@ -40,16 +40,16 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/scrollRight"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/right_arrow" />
-
-            <Button
                 android:id="@+id/scrollLeft"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/left_arrow" />
+
+            <Button
+                android:id="@+id/scrollRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right_arrow" />
         </LinearLayout>
 
         <LinearLayout

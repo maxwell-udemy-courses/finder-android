@@ -23,6 +23,7 @@ public class HomeActivity extends BaseActivity {
         List<Demo> demoList = new ArrayList<>();
 
         demoList.add(new Demo("Basic Map", MapsActivity.class));
+        demoList.add(new Demo("Partial Map", PartialMapActivity.class));
 
         DemoAdapter adapter = new DemoAdapter(demoList, this);
 

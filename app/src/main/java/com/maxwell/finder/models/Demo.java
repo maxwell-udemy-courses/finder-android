@@ -1,12 +1,13 @@
 package com.maxwell.finder.models;
 
 import com.maxwell.finder.BaseActivity;
+import com.maxwell.finder.MapsActivity;
 
 public class Demo {
     private String name;
-    private BaseActivity activity;
+    private Class activity;
 
-    public Demo(String name, BaseActivity activity) {
+    public Demo(String name, Class activity) {
         this.name = name;
         this.activity = activity;
     }
@@ -15,7 +16,7 @@ public class Demo {
         return name;
     }
 
-    public BaseActivity getActivity() {
+    public Class getActivity() {
         return activity;
     }
 }

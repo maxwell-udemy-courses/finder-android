@@ -39,7 +39,7 @@ public class DemoAdapter extends RecyclerView.Adapter<DemoViewHolder> {
         holder.cvDemoContainer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ctx, demoList.get(holder.getAdapterPosition()).getActivity().getClass());
+                Intent intent = new Intent(ctx, demoList.get(holder.getAdapterPosition()).getActivity());
                 ctx.startActivity(intent);
             }
         });

@@ -28,6 +28,7 @@ public class HomeActivity extends BaseActivity {
         demoList.add(new Demo("UI Map", UIMapsActivity.class));
         demoList.add(new Demo("Locations Map", LocationsMapActivity.class));
         demoList.add(new Demo("Simple Polyline Map", MapsPolylineActivity.class));
+        demoList.add(new Demo("Map Set Direction", MapsSetDirection.class));
 
         DemoAdapter adapter = new DemoAdapter(demoList, this);
 

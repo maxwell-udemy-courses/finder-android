@@ -42,6 +42,8 @@
         <activity android:name=".PartialMapActivity" />
         <activity android:name=".UIMapsActivity" />
         <activity android:name=".LocationsMapActivity" />
+        <activity android:name=".MapsGeoActivity" />
+        <activity android:name=".MapsPolylineActivity" />
     </application>
 
 </manifest>

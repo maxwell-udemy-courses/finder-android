@@ -46,6 +46,7 @@
         <activity android:name=".MapsPolylineActivity" />
         <activity android:name=".MapsInputPolylineActivity" />
         <activity android:name=".MapsSetDirection" />
+        <activity android:name=".SetLocationMapActivity" />
     </application>
 
 </manifest>
